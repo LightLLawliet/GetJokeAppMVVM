@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.ChuckNorrisFactsAppMVVM" parent="Theme.MaterialComponents.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/dark_cream</item>
+        <item name="colorPrimary">@color/cream</item>
         <item name="colorPrimaryVariant">@color/cream</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
