@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Chuck Norris</string>
+    <string name="get_fact">get fact</string>
+    <string name="no_connection_message">No Internet connection</string>
+    <string name="service_unavailable_message">Service is unavailable</string>
+    <string name="chuck_norris">chuck_norris</string>
+    <string name="wanna_get_some_interesting_fact_about_chuck_norris">Wanna get some interesting fact about Chuck Norris?</string>
+    <string name="so_press_the_button_then">So, press the button, then!</string>
+    <string name="show_favorite_joke">favorite fact</string>
+    <string name="icon_favorite">icon_favorite</string>
+    <string name="no_favorite_fact">No favorites fact. Click on heart to add one</string>
+</resources>

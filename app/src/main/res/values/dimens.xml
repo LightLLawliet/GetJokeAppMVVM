@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_horizontal_large_size">16dp</dimen>
+    <dimen name="margin_vertical_medium">10dp</dimen>
+    <dimen name="small_padding">5dp</dimen>
+    <dimen name="medium_size">22sp</dimen>
+    <dimen name="pre_medium_size">18sp</dimen>
+    <dimen name="image_size">70dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_medium_negative">-16dp</dimen>
+</resources>

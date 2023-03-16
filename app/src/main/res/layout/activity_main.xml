@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cream"
+    android:orientation="vertical"
+    tools:context="com.example.JokesApp.presentation.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/image_size"
+            android:layout_height="@dimen/image_size"
+            android:background="@drawable/circle_linear_layout"
+            android:contentDescription="@string/chuck_norris"
+            android:padding="@dimen/small_padding"
+            android:src="@drawable/chuck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_horizontal_large_size"
+            android:fontFamily="@font/sans_pro_bold"
+            android:gravity="center"
+            android:text="@string/wanna_get_some_interesting_fact_about_chuck_norris"
+            android:textColor="@color/white"
+            android:textSize="@dimen/medium_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_radius"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/sans_pro_italic"
+            android:paddingHorizontal="10dp"
+            android:text="@string/so_press_the_button_then"
+            android:textColor="@color/dark_cream"
+            android:textFontWeight="600"
+            android:textSize="@dimen/pre_medium_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-20dp"
+        android:layout_weight="7"
+        android:background="@drawable/circle_linear_layout"
+        android:orientation="vertical"
+        android:paddingHorizontal="@dimen/margin_horizontal_large_size">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:fontFamily="@font/sans_pro_bold"
+            android:gravity="center|center_horizontal"
+            android:textColor="@color/dark_cream"
+            android:textSize="@dimen/medium_size"
+            tools:text="Fact here" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminateTint="@color/cream"
+            android:visibility="invisible"
+            tools:visibility="visible" />
+
+
+        <LinearLayout
+            android:id="@+id/favoriteLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/favoriteImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:background="@color/white"
+                android:contentDescription="@string/icon_favorite"
+                android:src="@drawable/ic_favorite_unselected_24"
+                android:visibility="invisible"
+                tools:visibility="visible" />
+
+            <CheckBox
+                android:id="@+id/showFavoriteCheckbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@color/cream"
+                android:fontFamily="@font/sans_pro_bold"
+                android:text="@string/show_favorite_joke"
+                android:textColor="@color/cream" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/actionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/margin_horizontal_large_size"
+            android:background="@drawable/button_radius"
+            android:fontFamily="@font/sans_pro_bold"
+            android:gravity="center"
+            android:text="@string/get_fact"
+            android:textSize="@dimen/medium_size" />
+
+    </LinearLayout>
+</LinearLayout>
