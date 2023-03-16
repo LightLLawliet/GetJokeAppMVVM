@@ -1,6 +1,7 @@
-# ChuckNorrisFactsAppMVVM
-Stack: RETROFIT2, REALM, COROUTINES
+# GetJokeAppMVVM
+Stack: Kotlin, Retrofit2, Realm, Coroutines
 
-App which provides you interesting facts about famous cinema character Chuck Norris. All the wishes and remember: Chuck sees everything!
+Get a joke with punchline and setup by button click
 
-![chuck](https://user-images.githubusercontent.com/99660044/222420547-cb050388-ef6d-4847-934f-86271841dfac.png)
+![image](https://user-images.githubusercontent.com/99660044/225766778-2942b4f3-547f-4045-b81f-ed43127c305d.png)
+
